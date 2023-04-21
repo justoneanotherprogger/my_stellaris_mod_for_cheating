@@ -6,4 +6,4 @@ tags={
 }
 name="Much More Larger Sectors"
 supported_version="3.*"
-path="C:/Documents/Paradox Interactive/Stellaris/mod/strateg_sectors_upgrade"
+path="mod/strateg_sectors_upgrade"
