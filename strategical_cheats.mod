@@ -5,4 +5,4 @@ tags={
 }
 name="Strateg Cheats"
 supported_version="3.*"
-path="C:/Documents/Paradox Interactive/Stellaris/mod/strategical_cheats"
+path="mod/strategical_cheats"
