@@ -13,5 +13,5 @@ normal_sector = {
 		minerals = 1
 	}
 
-	max_jumps = 50
+	max_jumps = 10
 }

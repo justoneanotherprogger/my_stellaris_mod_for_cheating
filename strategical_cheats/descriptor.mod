@@ -4,4 +4,4 @@ tags={
 	"Gameplay"
 }
 name="Strateg Cheats"
-supported_version="3.*"
+supported_version="v3.14.*"

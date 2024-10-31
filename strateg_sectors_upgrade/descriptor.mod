@@ -5,4 +5,4 @@ tags={
 	"Economy"
 }
 name="Much More Larger Sectors"
-supported_version="3.*"
+supported_version="v3.*"

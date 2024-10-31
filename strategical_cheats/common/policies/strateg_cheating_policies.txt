@@ -25,17 +25,39 @@ strateg_cheating_policy = {
 		policy_flags = {
 			strateg_cheating_enabled
 		}
+
 		modifier = {
 			country_war_exhaustion_mult = -1
 			local_trade_protection_add = 10000
-			pop_citizen_happiness = 1
-			all_technology_research_speed = 1
-			country_engineering_research_produces_mult = 1
-			country_physics_research_produces_mult = 1
-			country_society_research_produces_mult = 1
+			leader_skill_levels = 20
+			intel_encryption_add = 100
 
-			army_health = 100
-			army_morale = 100
+			pop_category_drones_physics_research_produces_add = 1.5
+			pop_category_drones_society_research_produces_add = 1.5
+			pop_category_drones_engineering_research_produces_add = 1.5
+			pop_category_drones_unity_produces_add = 1.5
+			pop_category_drones_minor_artifacts_produces_add = 0.03
+
+			pop_category_workers_physics_research_produces_add = 1
+			pop_category_workers_society_research_produces_add = 1
+			pop_category_workers_engineering_research_produces_add = 1
+			pop_category_workers_unity_produces_add = 1
+			pop_category_workers_minor_artifacts_produces_add = 0.03
+
+			pop_category_specialists_physics_research_produces_add = 1.5
+			pop_category_specialists_society_research_produces_add = 1.5
+			pop_category_specialists_engineering_research_produces_add = 1.5
+			pop_category_specialists_unity_produces_add = 1.5
+			pop_category_specialists_minor_artifacts_produces_add = 0.05
+
+			pop_category_rulers_physics_research_produces_add = 3
+			pop_category_rulers_society_research_produces_add = 3
+			pop_category_rulers_engineering_research_produces_add = 3
+			pop_category_rulers_unity_produces_add = 3
+			pop_category_rulers_minor_artifacts_produces_add = 0.1
+
+			army_health = 1000
+			army_morale = 1000
 			army_damage_mult = 100
 			army_morale_damage_mult = 100
 
@@ -44,10 +66,10 @@ strateg_cheating_policy = {
 			ship_evasion_add = 1000
 			ship_evasion_mult = 10
 
-			ship_weapon_range_mult = 5
-			ship_armor_damage_mult = 100
-			ship_hull_damage_mult = 100
-			ship_shield_damage_mult = 100
+			ship_weapon_range_mult = 15
+			ship_armor_damage_mult = 1000
+			ship_hull_damage_mult = 1000
+			ship_shield_damage_mult = 1000
 
 			ship_armor_regen_add_static = 10000
 			ship_armor_regen_add_perc = 100
