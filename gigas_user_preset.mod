@@ -3,5 +3,5 @@ tags={
 	"Utilities"
 }
 name="Gigas User Preset"
-supported_version="v3.*"
+supported_version="v3.14.*"
 path="C:/Documents/Paradox Interactive/Stellaris/mod/gigas_user_preset"

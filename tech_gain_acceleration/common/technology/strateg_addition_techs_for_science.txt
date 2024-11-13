@@ -13,7 +13,7 @@ strateg_tech_physics_1 = {
 	}
 
 	modifier = {
-		planet_researchers_physics_research_produces_add = 0.2
+		planet_researchers_physics_research_produces_add = 0.5
 	}
 
 	weight_modifier = {
@@ -37,16 +37,10 @@ strateg_tech_physics_1 = {
 			factor = 2
 			years_passed > 20
 		}
-
-		modifier = {
-			factor = 1.5
-			is_specialist_subject_type = { TYPE = scholarium }
-		}
 	}
 
 	ai_weight = {
 		factor = @physics_research_ai_factor
-
 	}
 }
 
@@ -65,7 +59,7 @@ strateg_tech_physics_2 = {
 	}
 
 	modifier = {
-		planet_researchers_physics_research_produces_add = 0.3
+		planet_researchers_physics_research_produces_add = 1
 	}
 
 	weight_modifier = {
@@ -85,16 +79,10 @@ strateg_tech_physics_2 = {
 			factor = 2
 			years_passed > 40
 		}
-
-		modifier = {
-			factor = 1.5
-			is_specialist_subject_type = { TYPE = scholarium }
-		}
 	}
 
 	ai_weight = {
 		factor = @physics_research_ai_factor
-
 	}
 }
 
@@ -113,7 +101,7 @@ strateg_tech_physics_3 = {
 	}
 
 	modifier = {
-		planet_researchers_physics_research_produces_add = 0.4
+		planet_researchers_physics_research_produces_add = 2
 	}
 
 	weight_modifier = {
@@ -133,18 +121,13 @@ strateg_tech_physics_3 = {
 			factor = 2
 			years_passed > 40
 		}
-
-		modifier = {
-			factor = 1.5
-			is_specialist_subject_type = { TYPE = scholarium }
-		}
 	}
 
 	ai_weight = {
 		factor = @physics_research_ai_factor
-
 	}
 }
+
 strateg_tech_physics_4 = {
 	cost = @tier5cost3
 	area = physics
@@ -160,7 +143,7 @@ strateg_tech_physics_4 = {
 	}
 
 	modifier = {
-		planet_researchers_physics_research_produces_add = 0.5
+		planet_researchers_physics_research_produces_add = 4
 	}
 
 	weight_modifier = {
@@ -180,18 +163,13 @@ strateg_tech_physics_4 = {
 			factor = 2
 			years_passed > 40
 		}
-
-		modifier = {
-			factor = 1.5
-			is_specialist_subject_type = { TYPE = scholarium }
-		}
 	}
 
 	ai_weight = {
 		factor = @physics_research_ai_factor
-
 	}
 }
+
 #########
 strateg_tech_society_1 = {
 	cost = @tier1cost1
@@ -205,7 +183,7 @@ strateg_tech_society_1 = {
 	}
 
 	modifier = {
-		planet_researchers_society_research_produces_add = 0.2
+		planet_researchers_society_research_produces_add = 0.5
 	}
 
 	weight_modifier = {
@@ -230,10 +208,6 @@ strateg_tech_society_1 = {
 			years_passed > 20
 		}
 		modifier = {
-			factor = 1.5
-			is_specialist_subject_type = { TYPE = scholarium }
-		}
-		modifier = {
 			factor = 2
 			has_relic = r_pox_sample
 		}
@@ -243,6 +217,7 @@ strateg_tech_society_1 = {
 		factor = @society_research_ai_factor
 	}
 }
+
 strateg_tech_society_2 = {
 	cost = @tier2cost3
 	area = society
@@ -256,7 +231,7 @@ strateg_tech_society_2 = {
 	}
 
 	modifier = {
-		planet_researchers_society_research_produces_add = 0.3
+		planet_researchers_society_research_produces_add = 1
 	}
 
 	weight_modifier = {
@@ -277,10 +252,6 @@ strateg_tech_society_2 = {
 			years_passed > 20
 		}
 		modifier = {
-			factor = 1.5
-			is_specialist_subject_type = { TYPE = scholarium }
-		}
-		modifier = {
 			factor = 2
 			has_relic = r_pox_sample
 		}
@@ -290,6 +261,7 @@ strateg_tech_society_2 = {
 		factor = @society_research_ai_factor
 	}
 }
+
 strateg_tech_society_3 = {
 	cost = @tier4cost2
 	area = society
@@ -303,7 +275,7 @@ strateg_tech_society_3 = {
 	}
 
 	modifier = {
-		planet_researchers_society_research_produces_add = 0.4
+		planet_researchers_society_research_produces_add = 2
 	}
 
 	weight_modifier = {
@@ -324,10 +296,6 @@ strateg_tech_society_3 = {
 			years_passed > 40
 		}
 		modifier = {
-			factor = 1.5
-			is_specialist_subject_type = { TYPE = scholarium }
-		}
-		modifier = {
 			factor = 2
 			has_relic = r_pox_sample
 		}
@@ -337,6 +305,7 @@ strateg_tech_society_3 = {
 		factor = @society_research_ai_factor
 	}
 }
+
 strateg_tech_society_4 = {
 	cost = @tier5cost3
 	area = society
@@ -350,7 +319,7 @@ strateg_tech_society_4 = {
 	}
 
 	modifier = {
-		planet_researchers_society_research_produces_add = 0.5
+		planet_researchers_society_research_produces_add = 4
 	}
 
 	weight_modifier = {
@@ -371,10 +340,6 @@ strateg_tech_society_4 = {
 			years_passed > 40
 		}
 		modifier = {
-			factor = 1.5
-			is_specialist_subject_type = { TYPE = scholarium }
-		}
-		modifier = {
 			factor = 2
 			has_relic = r_pox_sample
 		}
@@ -384,6 +349,7 @@ strateg_tech_society_4 = {
 		factor = @society_research_ai_factor
 	}
 }
+
 ##############
 strateg_tech_engineering_1 = {
 	cost = @tier1cost1
@@ -397,7 +363,7 @@ strateg_tech_engineering_1 = {
 	}
 
 	modifier = {
-		planet_researchers_engineering_research_produces_add = 0.2
+		planet_researchers_engineering_research_produces_add = 0.5
 	}
 
 	weight_modifier = {
@@ -421,18 +387,13 @@ strateg_tech_engineering_1 = {
 			factor = 2
 			years_passed > 20
 		}
-
-		modifier = {
-			factor = 1.5
-			is_specialist_subject_type = { TYPE = scholarium }
-		}
 	}
 
 	ai_weight = {
 		factor = @ai_engineering_tech_speed_factor
-
 	}
 }
+
 strateg_tech_engineering_2 = {
 	cost = @tier2cost3
 	area = engineering
@@ -446,7 +407,7 @@ strateg_tech_engineering_2 = {
 	}
 
 	modifier = {
-		planet_researchers_engineering_research_produces_add = 0.3
+		planet_researchers_engineering_research_produces_add = 1
 	}
 
 	weight_modifier = {
@@ -466,18 +427,13 @@ strateg_tech_engineering_2 = {
 			factor = 2
 			years_passed > 40
 		}
-
-		modifier = {
-			factor = 1.5
-			is_specialist_subject_type = { TYPE = scholarium }
-		}
 	}
 
 	ai_weight = {
 		factor = @ai_engineering_tech_speed_factor
-
 	}
 }
+
 strateg_tech_engineering_3 = {
 	cost = @tier4cost2
 	area = engineering
@@ -491,7 +447,7 @@ strateg_tech_engineering_3 = {
 	}
 
 	modifier = {
-		planet_researchers_engineering_research_produces_add = 0.4
+		planet_researchers_engineering_research_produces_add = 2
 	}
 
 	weight_modifier = {
@@ -511,18 +467,13 @@ strateg_tech_engineering_3 = {
 			factor = 2
 			years_passed > 40
 		}
-
-		modifier = {
-			factor = 1.5
-			is_specialist_subject_type = { TYPE = scholarium }
-		}
 	}
 
 	ai_weight = {
 		factor = @ai_engineering_tech_speed_factor
-
 	}
 }
+
 strateg_tech_engineering_4 = {
 	cost = @tier5cost3
 	area = engineering
@@ -536,7 +487,7 @@ strateg_tech_engineering_4 = {
 	}
 
 	modifier = {
-		planet_researchers_engineering_research_produces_add = 0.5
+		planet_researchers_engineering_research_produces_add = 4
 	}
 
 	weight_modifier = {
@@ -556,15 +507,9 @@ strateg_tech_engineering_4 = {
 			factor = 2
 			years_passed > 40
 		}
-
-		modifier = {
-			factor = 1.5
-			is_specialist_subject_type = { TYPE = scholarium }
-		}
 	}
 
 	ai_weight = {
 		factor = @ai_engineering_tech_speed_factor
-
 	}
 }

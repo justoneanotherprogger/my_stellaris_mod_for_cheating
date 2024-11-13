@@ -3,4 +3,4 @@ tags={
 	"Utilities"
 }
 name="Gigas User Preset"
-supported_version="v3.*"
+supported_version="v3.14.*"
